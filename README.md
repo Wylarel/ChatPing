@@ -21,7 +21,7 @@ actionbar:
   message: [string] - Message in the actionbar when pinged
 ```
 
-## License MIT
+## MIT License
 ```
 Copyright (c) 2020 Wylarel
 
