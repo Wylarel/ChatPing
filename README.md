@@ -1,5 +1,5 @@
 # ChatPing
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://raw.githubusercontent.com/Wylarel/ChatPing/master/LICENSE)
 ## A Minecraft plugin to ping players in chat
 
 **Tested Versions:** 1.15.x
