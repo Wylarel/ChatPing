@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # ChatPing
 ## A Minecraft plugin to ping players in chat
 
