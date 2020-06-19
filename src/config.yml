@@ -1,0 +1,13 @@
+canselfping: false
+
+sound:
+  enable: true
+  value: "ENTITY_ARROW_HIT_PLAYER"
+  
+color: 
+  enable: true
+  value: "&6"
+
+actionbar: 
+  enable: true
+  message: "&6<sender> &evous a mentionn\u00E9"
