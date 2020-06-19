@@ -10,4 +10,4 @@ color:
 
 actionbar: 
   enable: true
-  message: "&6<sender> &evous a mentionn\u00E9"
+  message: "&6<sender> &ementioned you"
