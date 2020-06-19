@@ -1,10 +1,8 @@
 # ChatPing
+## A Minecraft plugin to ping players in chat
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://raw.githubusercontent.com/Wylarel/ChatPing/master/LICENSE)
 [![Discord](https://img.shields.io/badge/Chat-Discord-blue)](https://discord.gg/7qvmeh2)
-## A Minecraft plugin to ping players in chat
-
-**Tested Versions:** 1.15.x
-
+[![Versions](https://img.shields.io/badge/Tested%20Versions-1.15.x-orange)](#)
 ## Configuration
 ```yaml
 canselfping: [boolean] - Does a player get the ping if he mentions himself in the chat?
