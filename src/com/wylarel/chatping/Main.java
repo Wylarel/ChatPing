@@ -33,13 +33,10 @@ public class Main extends JavaPlugin implements Listener {
                     String lastColor = ChatColor.getLastColors(e.getMessage());
                     e.setMessage(e.getMessage().replaceAll(player.getName(), getConfig().getString("color.value").replace("&", "§") + player.getName() + (lastColor.isEmpty() ? ChatColor.RESET : lastColor)));
                 }
-                if (getConfig().getBoolean("sound.enable")) {
+                if (getConfig().getBoolean("sound.enable"))
                 	player.playSound(player.getEyeLocation(), Sound.valueOf(getConfig().getString("sound.value")), 1, 1);
-                	//Sound.ENTITY_EXPERIENCE_ORB_PICKUP
-                }
-                if (getConfig().getBoolean("actionbar.enable")) {
+                if (getConfig().getBoolean("actionbar.enable"))
                     player.spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(getConfig().getString("actionbar.message").replace("&",  "§").replace("<sender>", e.getPlayer().getDisplayName())));
-                }
             }
         });
     }
